@@ -1,0 +1,14 @@
+/* BASE */
+body {
+  line-height: 1, 5;
+  margin: 0 auto;
+  font-family: "Nimbus Mono PS", "Courier New", monospace;
+  font-weight: 900;
+}
+header {
+  background-color: saddlebrown;
+  height: 80px;
+  box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.73) inset;
+  -webkit-box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.73) inset;
+  -moz-box-shadow: 0px 1px 25px 8px rgba(0, 0, 0, 0.73) inset;
+}
