@@ -1,0 +1,62 @@
+/*RESET*/
+
+/*1.*/
+* {
+  margin: 0;
+  /*Entfernt alle voreingestellten Außenabstände (Margins) für alle Elemente.*/
+}
+
+/*2.*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  /*Legt fest, dass die Breite eines Elements die Innenabstände (padding) und Rahmen (border) mit einschließt.*/
+}
+
+/*3.*/
+body {
+  -webkit-font-smoothing: antialiased;
+  /* Verbessert die Lesbarkeit und die Darstellung von Text. */
+
+/*4.*/
+  line-height: 1.5;
+  /* Erhöht den Abstand zwischen Textzeilen für bessere Lesbarkeit. */
+}
+
+/*5.*/
+input, button, textarea, select {
+  font: inherit;
+  /*Eingabefelder und Buttons (Formularelemente) übernehmen Schriftart und Schriftgröße. */
+}
+
+/*6.*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  /* Lange Wörter oder URLs werden automatisch umgebrochen. */
+}
+
+/*7.*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+  /* Bilder,Videos, etc. werden nie breiter als ihre Box dargestellt. */
+}
+
+/*8.*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, 
+abbr, acronym, address, big, cite, code, del, 
+dfn, em, img, ins, kbd, q, s, samp, small, 
+strike, strong, sub, sup, tt, var, b, u, i, 
+center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, article, aside, canvas, 
+details, embed, figure, figcaption, footer, 
+header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video {
+ 
+    margin: 0; /* Entfernt Standardabstände */
+    padding: 0; /* Entfernt Standardinnenabstände */
+    border: 0; /* Setzt Standardrahmen zurück */
+    font-size: 100%; /* Setzt Schriftgröße gleich */
+    font: inherit; /* Setzt Schriftart gleich */
+    vertical-align: baseline; /* Setzt alle in eine vertikale Ausrichtung*/}
